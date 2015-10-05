@@ -137,7 +137,7 @@ int32_t Adafruit_BMP085::readPressure(void) {
   oversampling = 0;
 #endif
 
-  B5 = computeB5(UT);
+ B5 = computeB5(UT);
 
 #if BMP085_DEBUG == 1
   Serial.print("X1 = "); Serial.println(X1);
